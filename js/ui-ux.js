@@ -7,14 +7,12 @@ function xhttp() {
   xhttp.onload = () => {
     if (xhttp.readyState === xhttp.DONE) {
       if (xhttp.status === 200) {
-        // console.log(xhttp.response);
-        console.log(xhttp.responseText);
-        let json = JSON.parse(xhttp.response);
-        document.getElementById("result").innerHTML = json.schema;
+
+        // DO THE DOM THING HERE
+
       }
     }
   }
 
   xhttp.send(null);
 }
-
