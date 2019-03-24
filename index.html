@@ -8,20 +8,39 @@
   <title>NgeKost</title>
 
   <!-- CSS FILES -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/app.css" type="text/css">
 
 </head>
 
-<body onload="xhttp()">
-  <div id="result"></div>
-  <button onclick="alertCookie()">Show cookies</button>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">
+      <div class="logo-nav"></div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </body>
 
 <!-- JS FILES -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/smooth-scroll.js"></script>
-<script src="js/ui-ux.js"></script>
-<script src="js/server.js"></script>
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+<script src="js/smooth-scroll.js" type="text/javascript"></script>
+<script src="js/ui-ux.js" type="text/javascript"></script>
+<script src="js/server.js" type="text/javascript"></script>
 
 </html>

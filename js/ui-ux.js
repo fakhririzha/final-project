@@ -16,3 +16,14 @@ function xhttp() {
 
   xhttp.send(null);
 }
+
+window.onload = () => {
+
+  window.addEventListener("scroll", () => {
+    var wScroll = window.scrollY;
+
+    // document.getElementById("gambar").style.transform = `translate(0px, -${wScroll / 100}%)`;
+
+    console.log(wScroll);
+  });
+}

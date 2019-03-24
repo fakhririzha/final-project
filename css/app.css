@@ -1,0 +1,12 @@
+.logo-nav {
+  width: 50px;
+  min-height: 50px;
+  background: url('../img/logo.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition-duration: 1.5s;
+}
+
+.navbar-toggler {
+  background: linear-gradient(to right, #3BEBFF, #02FE53);
+}
