@@ -13,14 +13,19 @@ nav {
   transition-duration: 1.5s;
 }
 
+#profile-section .img-thumbnail {
+  background: linear-gradient(to right, #3BEBFF, #02FE53);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 nav.nav-scrolled {
-  background: linear-gradient(to right, #01FF4F, #1DFA63, #24F3BA, #2DF0D6, #39ECF9);
+  background: linear-gradient(to right, #01FF4F, #1DFA63, rgb(36, 243, 122), #2DF0D6, #39ECF9);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media (max-width: 576px) {
   nav {
-    background: linear-gradient(to right, #01FF4F, #1DFA63, #24F3BA, #2DF0D6, #39ECF9);
+    background: linear-gradient(to right, #01FF4F, #1DFA63, rgb(36, 243, 122), #2DF0D6, #39ECF9);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 }
@@ -99,6 +104,7 @@ nav.nav-scrolled {
 
 section {
   padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 @media (max-width: 576px) {
@@ -108,6 +114,21 @@ section {
     min-height: 480px;
     background: url('../img/bg_header.png') no-repeat;
     background-size: contain;
+  }
+  #skills-section th {
+    text-align: right;
+    /* padding-right: 65px; */
+  }
+  #skills-section td {
+    text-align: left;
+    /* padding-left: 65px; */
+  }
+  .col-education-gambar img {
+    margin-left: 25%;
+    height: 250px;
+  }
+  .col-skills {
+    margin-left: 50px;
   }
 }
 
@@ -119,11 +140,23 @@ section {
     background: url('../img/bg_header.png') no-repeat;
     background-size: contain;
   }
-  .col-profile-gambar {
+  .col-profile-gambar,
+  .col-education-gambar {
     padding-left: 100px;
   }
   .col-profile-gambar img {
     /* height: 320px; */
+  }
+  #skills-section th {
+    text-align: right;
+    /* padding-right: 65px; */
+  }
+  #skills-section td {
+    text-align: left;
+    /* padding-left: 65px; */
+  }
+  .col-skills {
+    margin-left: 75px;
   }
 }
 
@@ -131,11 +164,28 @@ section {
   header.about {
     padding-left: 40px;
   }
-  .col-profile-gambar {
+  .col-profile-gambar,
+  .col-education-gambar {
     padding-left: 150px;
   }
-  .col-profile-gambar img {
+  .col-profile-gambar img,
+  .col-education-gambar img {
     height: 320px;
+  }
+  #skills-section th {
+    text-align: right;
+    /* padding-right: 90px; */
+  }
+  #skills-section td {
+    text-align: left;
+    /* padding-left: 90px; */
+  }
+  .col-education,
+  .col-profile {
+    padding-top: 35px;
+  }
+  .col-skills {
+    margin-left: 150px;
   }
 }
 
@@ -151,4 +201,17 @@ section {
   .col-header-2 {
     padding-right: 50px;
   }
+}
+
+#education-section {
+  background: url('../img/education.jpg') no-repeat;
+  background-size: cover;
+}
+
+#skills-section {
+  background: linear-gradient(to right, #01FF4F, #1DFA63, rgb(36, 243, 122), #2DF0D6, #39ECF9);
+  background: -webkit-linear-gradient(to right, #01FF4F, #1DFA63, rgb(36, 243, 122), #2DF0D6, #39ECF9);
+  background: -moz-linear-gradient(to right, #01FF4F, #1DFA63, rgb(36, 243, 122), #2DF0D6, #39ECF9);
+  background: -o-linear-gradient(to right, #01FF4F, #1DFA63, rgb(36, 243, 122), #2DF0D6, #39ECF9);
+  background-size: cover;
 }
