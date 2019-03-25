@@ -32,7 +32,7 @@ Untuk final project kalian, buatlah sebuah web dengan kriteria sebagai berikut:
 `Front Page`
 
 
-![Preview](https://raw.githubusercontent.com/fakhririzha/final-project/master/img/ex4.PNG)
+![Preview](https://raw.githubusercontent.com/fakhririzha/final-project/master/img/final-project.png)
 
 `Project Page`
 
