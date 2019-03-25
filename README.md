@@ -29,11 +29,17 @@ Untuk final project kalian, buatlah sebuah web dengan kriteria sebagai berikut:
 
 ## Preview
 
-Front Page
+`Front Page`
+
+
 ![Preview](https://raw.githubusercontent.com/fakhririzha/final-project/master/img/ex4.PNG)
 
-Project Page
+`Project Page`
+
+
 ![Preview](https://raw.githubusercontent.com/fakhririzha/final-project/master/img/project.PNG)
 
-Contact Page
+`Contact Page`
+
+
 ![Preview](https://raw.githubusercontent.com/fakhririzha/final-project/master/img/contact.PNG)
