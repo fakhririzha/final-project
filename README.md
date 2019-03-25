@@ -33,7 +33,7 @@ Front Page
 ![Preview](https://raw.githubusercontent.com/fakhririzha/exercise3/master/img/ex4.png)
 
 Project Page
-![Preview](https://raw.githubusercontent.com/fakhririzha/exercise3/master/img/project.png)
+![Preview](https://raw.githubusercontent.com/fakhririzha/exercise3/master/img/project.PNG)
 
 Contact Page
-![Preview](https://raw.githubusercontent.com/fakhririzha/exercise3/master/img/contact.png)
+![Preview](https://raw.githubusercontent.com/fakhririzha/exercise3/master/img/contact.PNG)
