@@ -30,10 +30,10 @@ Untuk final project kalian, buatlah sebuah web dengan kriteria sebagai berikut:
 ## Preview
 
 Front Page
-![Preview](https://raw.githubusercontent.com/fakhririzha/exercise3/master/img/ex4.png)
+![Preview](https://raw.githubusercontent.com/fakhririzha/final-projecy/master/img/ex4.png)
 
 Project Page
-![Preview](https://raw.githubusercontent.com/fakhririzha/exercise3/master/img/project.PNG)
+![Preview](https://raw.githubusercontent.com/fakhririzha/final-projecy/master/img/project.PNG)
 
 Contact Page
-![Preview](https://raw.githubusercontent.com/fakhririzha/exercise3/master/img/contact.PNG)
+![Preview](https://raw.githubusercontent.com/fakhririzha/final-projecy/master/img/contact.PNG)
