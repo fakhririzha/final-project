@@ -3,6 +3,11 @@
   src: url("../webfonts/Aleo-Regular.ttf") format('truetype'), url("../webfonts/Aleo-Regular.ttf") format('truetype');
 }
 
+h2.section {
+  font-family: "Aleo Regular";
+  font-weight: 600;
+}
+
 nav {
   background: transparent;
   transition-duration: 1.5s;
@@ -92,6 +97,10 @@ nav.nav-scrolled {
   border-width: 3px;
 }
 
+section {
+  padding-top: 75px;
+}
+
 @media (max-width: 576px) {
   header.about {
     padding-top: 50px;
@@ -110,11 +119,23 @@ nav.nav-scrolled {
     background: url('../img/bg_header.png') no-repeat;
     background-size: contain;
   }
+  .col-profile-gambar {
+    padding-left: 100px;
+  }
+  .col-profile-gambar img {
+    /* height: 320px; */
+  }
 }
 
 @media (min-width: 720px) {
   header.about {
     padding-left: 40px;
+  }
+  .col-profile-gambar {
+    padding-left: 150px;
+  }
+  .col-profile-gambar img {
+    height: 320px;
   }
 }
 
