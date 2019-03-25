@@ -224,3 +224,17 @@ section {
   background: -o-linear-gradient(to right, #01FF4F, #1DFA63, rgb(36, 243, 122), #2DF0D6, #39ECF9);
   background-size: cover;
 }
+
+.btn-project {
+  background: linear-gradient(to right, #01FF4F, #1DFA63, rgb(36, 243, 122), #2DF0D6, #39ECF9);
+  background: -webkit-linear-gradient(to right, #01FF4F, #1DFA63, rgb(36, 243, 122), #2DF0D6, #39ECF9);
+  background: -moz-linear-gradient(to right, #01FF4F, #1DFA63, rgb(36, 243, 122), #2DF0D6, #39ECF9);
+  background: -o-linear-gradient(to right, #01FF4F, #1DFA63, rgb(36, 243, 122), #2DF0D6, #39ECF9);
+  border: 2px solid green;
+  transition: 0.5s ease-in;
+}
+
+.btn-project:hover {
+  background: rgb(60, 60, 60);
+  color: white;
+}
