@@ -4,3 +4,8 @@ sr.reveal('.col-header', {
   origin: 'left',
   distance: '200px'
 });
+sr.reveal('.col-header-2', {
+  duration: 2000,
+  origin: 'bottom',
+  distance: '200px'
+});

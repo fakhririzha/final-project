@@ -17,6 +17,11 @@ function xhttp() {
   xhttp.send(null);
 }
 
+$('.carousel').carousel({
+  ride: true,
+  interval: 1500
+});
+
 window.onload = () => {
 
   window.addEventListener("scroll", () => {
