@@ -19,3 +19,18 @@ sr.reveal('.col-profile', {
   origin: 'top',
   distance: '200px'
 });
+sr.reveal('.col-education', {
+  duration: 2000,
+  origin: 'right',
+  distance: '200px'
+});
+sr.reveal('.col-education-gambar', {
+  duration: 2000,
+  origin: 'left',
+  distance: '200px'
+});
+sr.reveal('.col-skills', {
+  duration: 2000,
+  origin: 'bottom',
+  distance: '200px'
+});
