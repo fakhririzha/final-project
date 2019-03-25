@@ -3,6 +3,15 @@
   src: url("../webfonts/Aleo-Regular.ttf") format('truetype'), url("../webfonts/Aleo-Regular.ttf") format('truetype');
 }
 
+@font-face {
+  font-family: "San Marino";
+  src: url("../webfonts/San\ Marino.ttf") format('truetype'), url("../webfonts/San\ Marino.ttf") format('truetype');
+}
+
+body {
+  font-family: "San Marino";
+}
+
 h2.section {
   font-family: "Aleo Regular";
   font-weight: 600;
